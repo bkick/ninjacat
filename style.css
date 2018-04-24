@@ -1,0 +1,40 @@
+img{
+	width: 400px;
+	position:absolute;
+	left: 0px;
+}
+.reset{
+	position: absolute;
+	left: 410px;
+	top:30px;
+}
+#ninja1{
+	top:0px;
+}
+#ninja2{
+	top: 100px;
+}
+#ninja3{
+	top: 215px;
+}
+#ninja4{
+	top:330px;
+}
+#ninja5{
+	top:445px;
+}
+#cat1{
+	top: 0px;	
+}
+#cat2{
+	top: 100px;	
+}
+#cat3{
+	top: 215px;	
+}
+#cat4{
+	top:330px;
+}
+#cat5{
+	top:445px;	
+}

@@ -1,0 +1,51 @@
+<html>
+<head>
+	<title></title>
+		<link rel="stylesheet" href="style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('img.ninja').show();
+			$('img.cat').hide();
+			$('#ninja1').click(function(){
+				$(this).hide();
+				$('#cat1').show();
+			});
+			$('#ninja2').click(function(){
+				$(this).hide();
+				$('#cat2').show();
+			});$('#ninja3').click(function(){
+				$(this).hide();
+				$('#cat3').show();
+			});$('#ninja4').click(function(){
+				$(this).hide();
+				$('#cat4').show();
+			});$('#ninja5').click(function(){
+				$(this).hide();
+				$('#cat5').show();
+			});
+			$('button').click(function(){
+				$('img.ninja').show();
+				$('img.cat').hide();
+			});
+		});
+	</script>
+</head>
+<body>
+	
+
+	<img class="ninja" id="ninja1" src="img/ninja0.png" alt="ninja">
+	<img class="ninja" id="ninja2" src="img/ninja1.png" alt="ninja">
+	<img class="ninja" id="ninja3" src="img/ninja2.png" alt="ninja">
+	<img class="ninja" id="ninja4" src="img/ninja3.png" alt="ninja">
+	<img class="ninja" id="ninja5" src="img/ninja4.png" alt="ninja">
+	<img class="cat" id="cat1" src="img/cat0.png" alt="cat">
+	<img class="cat" id="cat2" src="img/cat1.png" alt="cat">
+	<img class="cat" id="cat3" src="img/cat2.png" alt="cat">
+	<img class="cat" id="cat4" src="img/cat3.png" alt="cat">
+	<img class="cat" id="cat5" src="img/cat4.png" alt="cat">
+				
+	<button class="reset"type="button">RESET</butotn>
+
+</body>
+</html>
